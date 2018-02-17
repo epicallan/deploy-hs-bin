@@ -1,0 +1,45 @@
+{
+  "name": "deploy-hs-bin",
+  "version": "1.0.0",
+  "description": "binary wrapper for deploy-hs - a deployment solution in haskell",
+  "main": "index.js",
+  "scripts": {
+    "patch": "release-it -i patch -n",
+    "feature": "release-it -i minor -n",
+    "breaking": "release-it -i major -n"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/epicallan/deploy-hs-bin.git"
+  },
+  "bin": {
+    "deploy": "cli.js"
+  },
+  "keywords": [
+    "deploy",
+    "auto",
+    "deployment",
+    "deploy-cli",
+    "cli-app",
+    "cli",
+    "bin",
+    "binary"
+  ],
+  "files": [
+    "delploy-init",
+    "cli.js",
+    "index.js"
+  ],
+  "author": "epicallan.al@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epicallan/deploy-hs-bin/issues"
+  },
+  "homepage": "https://github.com/epicallan/deploy-hs-bin#readme",
+  "devDependencies": {
+    "release-it": "^7.0.2"
+  }
+}

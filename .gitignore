@@ -1,0 +1,4 @@
+node_modules
+deploy-init
+/deploy-init-v*/
+*.swp
